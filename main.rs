@@ -1,20 +1,11 @@
-fn main() {
-    let num1 = 10 ;
-    let num2 = 2;
-    let mut result:i32;
+fn main(){
+    let name = "Oluwatamilore Akiode";
+    let uni:&str = "Pan_Atlantic University";
+    let addr:&str = "Km 52 Lekki-Epe Expressway, Ibeju-Lekki, Lagos";
+    println!("Name: {}", name);
+    println!("University: {} \nAddress: {}",uni,addr);
 
-    result = num1 + num2;
-    println!("Sum: {} ",result);
-
-    result = num1 - num2;
-    println!("Difference: {}",result);
-
-    result = num1*num2 ;
-    println!("Product: {} ",result);
-
-    result = num1/num2 ;
-    println!("Quotient: {} ",result);
-
-    result = num1%num2 ;
-    println!("Remainder: {} ",result);
+    let department:&'static str = "Computer Science";
+    let school:&'static str = "School of Science and Technology";
+    println!("Department: {}, \nSchool: {}",department,school);
 }
