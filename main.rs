@@ -1,11 +1,7 @@
 fn main(){
-    let name = "Oluwatamilore Akiode";
-    let uni:&str = "Pan_Atlantic University";
-    let addr:&str = "Km 52 Lekki-Epe Expressway, Ibeju-Lekki, Lagos";
-    println!("Name: {}", name);
-    println!("University: {} \nAddress: {}",uni,addr);
+    let empty_string = String::new();
+    println!("Length of empty_string is {}",empty_string.len());
 
-    let department:&'static str = "Computer Science";
-    let school:&'static str = "School of Science and Technology";
-    println!("Department: {}, \nSchool: {}",department,school);
+    let content_string = String::from("ComputerScience");
+    println!("Length of content_string is {}",content_string.len());
 }
