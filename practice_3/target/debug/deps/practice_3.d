@@ -1,5 +1,5 @@
-C:\Users\tashi\Documents\week 6 tamilore\practice_3\target\debug\deps\practice_3.d: src\main.rs
+C:\Users\NewAdmin\Documents\Ta folder\practice_3\target\debug\deps\practice_3.d: src\main.rs
 
-C:\Users\tashi\Documents\week 6 tamilore\practice_3\target\debug\deps\practice_3.exe: src\main.rs
+C:\Users\NewAdmin\Documents\Ta folder\practice_3\target\debug\deps\practice_3.exe: src\main.rs
 
 src\main.rs:
